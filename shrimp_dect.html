@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Popup Button</title>
+<link rel="stylesheet" href="body.css">
+</head>
+
+
+
+<body>
+<h1 id="title">Shrimp Detector 🦐</h1>
+<button id="popupButton">Start Detection</button>
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <p>are you a shrimp?</p>
+    <button id="yesButton">Yes</button>
+    <button id="noButton">No</button>
+  </div>
+</div>
+
+<div id="imageContainer" style="display: none;">
+  <img src="laughingshrimp.jpg" alt="Image">
+</div>
+
+<audio id="clickSound">
+  <source src="Cat Laughing At You.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio id="yippeeSound">
+  <source src="Yippee sound effect!!.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>

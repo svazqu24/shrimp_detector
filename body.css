@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #E0F4FF 0%, #FFE4E1 100%);
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 3px solid #FF7F50;
+    padding: 30px;
+    z-index: 1000;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(255, 127, 80, 0.3);
+  }
+  
+  .popup-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .close {
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    color: #FF6B6B;
+    transition: color 0.2s ease;
+  }
+  
+  .close:hover {
+    color: #FF4444;
+  }
+
+  #popupButton {
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: #FF7F50;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+  }
+  
+h1 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #FF6B6B;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+  button {
+    font-size: 25px;
+    background-color: #FF7F50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #FF6B6B;
+    transform: scale(1.05);
+  }
+
+  p {
+    font-size: 25px;
+    color: #FF6B6B;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+
+  img {
+    width: 50%;
+  }
