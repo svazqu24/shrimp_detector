@@ -2,6 +2,4 @@ Are you a shrimp detector
 pretty easy yes or no questions
 
 
-I don't take credit for some of this code, I just changed a couple CSS and JS things around a bit
-this isn't my idea, All credit goes to BocchiTheDeveloper for creating the original code.
-
+A fun little web project based on the original created by BocchiTheDeveloper. All credit for the original concept and code goes to them — I only made a few edits to give it more flare.
